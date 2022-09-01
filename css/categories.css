@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+*{
+    border-radius: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    width: 100%;
+    height: 56px;
+    background-color: #01a1f9;
+    ;
+}
+
+i{
+    font-size: 40px;
+    padding-top: 6px;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.top{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+    font-weight: 800;
+    padding-top: 5px;
+    float: left;
+    margin-right: 205px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    color: darkmagenta;
+  }
+  
+  .active {
+    background-color: #1d21e7;
+  }
+
+.wrapper{
+    margin-top: 35px;
+}
+
+.cards_wrap{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    }
+
+.cards_wrap .card_item{
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 500px;
+    width: 20%;
+   }
+
+.cards_wrap .card_inner{
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 35px 20px;
+    min-width: 225px;
+    min-height: 315px;
+    width: 100%;
+    box-shadow: 0px 20px 30px rgb(161, 159, 159);
+}
+
+.cards_wrap .card_inner img{
+    width: 200px;
+    height: 180px;
+    margin-bottom: 5px;
+}
+
+.cards_wrap .card_inner .title_name{
+    color: #000000;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 18px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cards_wrap .card_inner .content_part{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bold;
+    color: rgb(56, 56, 56);
+}
+
+.main-button{
+    margin-top: 15px;
+}
+
+.main-btn{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 5px 8px;
+    border-radius: 50px;
+    transition: 0.5s;
+    border: 2px solid #01a1f9;
+    color: #08beff;
+}
+.main-btn:hover{
+    background: #ffffff;
+    border: 2px solid #e938c3;
+    text-decoration: none;
+    color: #e938c3;
+}
